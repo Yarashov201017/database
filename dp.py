@@ -4,12 +4,12 @@
 #     host="localhost",
 #     database="it_park",
 #     user="postgres",
-#     password="ulugbek"
+#     password=""
 # )
 # ishlash=ulash.cursor()
 
 # ishlash.execute(
-#     "INSERT INTO student (name, age ) VALUES ('Ulugbek',15)"
+#     "INSERT INTO student (name, age ) VALUES ('Botir',15)"
 
 # ulash.commit()
 
@@ -36,7 +36,7 @@ ulash=psycopg2.connect(
     host="localhost",
     database="new",
     user="postgres",
-    password="ulugbek"
+    password=""
 )
 ulash.autocommit=True
 connect=ulash.cursor()
@@ -69,7 +69,7 @@ connect=ulash.cursor()
 # )
 # print("jadval tayyor")
 # connect.execute(
-#     "INSERT INTO narsalar (name, age ,subject) VALUES ('Ulugbek',15,'Backend')"
+#     "INSERT INTO narsalar (name, age ,subject) VALUES ('Botir',15,'Backend')"
 # )
 connect.execute(
     "INSERT INTO ustoz (name,age,subject) VALUES ('Mirzabek',25,'Dasturlash')"
